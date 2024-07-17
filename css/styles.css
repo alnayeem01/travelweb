@@ -1,0 +1,272 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+}
+body{
+    font-family:  "Roboto", sans-serif;
+    color: black; 
+}
+/* pagewrapper for all page */
+#pagewrapper{ 
+    background-color: white;
+    font-family:  "Roboto", sans-serif; 
+} 
+/* header */
+header {
+    padding: 0.5rem;
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: large;
+}
+/* priamry nav */
+.primarynav{
+    text-align: center;
+    background-color: #2FD05C;
+    letter-spacing:0.025rem;
+}
+.primarynav li{
+    list-style: none;
+    display: inline-block;
+}
+.primarynav a{
+    text-decoration: none;
+    padding: 0.5rem;
+    display: inline-block;
+    color: white;
+    min-width: 100px;
+    border: 1px solid #1ebb4b;
+    
+}
+.primarynav a:hover{
+    background-color:#D0AC2F;
+    border-radius: 10%;
+    color: black;
+    text-decoration: underline;
+}
+/*  current page nav button */
+.current{
+    background-color: rgb(55, 180, 55);
+    border-radius: 10%;
+}
+/* footer */
+footer {
+    background-color: rgb(132, 201, 149);
+    text-align: center;
+    color: black;
+    line-height: 1.5rem;
+}
+footer a{
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+footer img{
+    max-width: 30px;
+}
+/* home page */
+.cityinfo{
+    display: flex;
+    justify-content: center;
+}
+#cityintro{
+    margin: 2rem;
+    padding: 8rem;
+    border: 2px solid rgb(84, 84, 100);
+    border-radius: 0% 10% ;
+    max-width: 30%;
+    text-align: center;
+}
+#cityreviews {
+    padding: 0.5rem;
+    margin: 1rem;
+    text-align: center;
+}
+#cityreviews div{
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border: 1px solid beige;
+    text-align: center;
+    
+}
+#cityreviews img{
+    border-radius: 0% 10%;
+}
+#citypic{
+    padding: 0.5rem;
+    margin: 1rem;
+    text-align: center;
+}
+#citypic div{
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border:1px solid beige ; 
+    text-align: center;
+}
+#citypic img{
+    padding-top: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 0% 10%;
+    max-width: 80%;
+}
+/* places page */
+#container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+  
+}
+.place{
+    padding: .5rem;
+    margin: 0.5rem;
+    text-align: center;
+    border: 1px solid bisque;
+    width: 300px;
+}
+.place img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20%;
+    
+}
+/* for all the bold heading in description */
+.heading{
+    font-weight: bold;
+}
+/* tips page  */
+#tipscontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 1.5rem;
+}
+.tips{
+    padding: .5rem;
+    margin: .5rem;
+    width: 80%;
+    background-color: antiquewhite;
+}
+.tips ul{
+    margin: 1rem;
+    
+}
+.tips img{
+    width: 60% ;
+    height: min-content;
+    padding: 0.5rem;
+    border-radius: 5%;
+}
+#tipscontainer h2{
+    font-size: larger;
+    margin-top: 0.5rem;
+}
+/* tranport page */
+#rightcolumn{
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+}
+#leftcolumn{
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+}
+/* secondary nav */
+#secondarynav ul{
+padding: 0.5rem;
+margin: 1.5rem;
+}
+#secondarynav li{
+    padding: 0.5rem;
+    list-style: none;
+    border-bottom: 1px solid gray;
+}
+#secondarynav li:first-child{
+    border-top: 1px solid gray;
+}
+#secondarynav a{
+    text-decoration: none;
+    color: black;
+    width: 90%;
+    min-width: 80%;
+    text-align: center;
+}
+#secondarynav a img{
+    max-width: 80%;
+}
+#secondarynav li:hover{
+    background-color: lightblue;
+}
+.now {
+    background-color: lightgreen;
+}
+#content {
+    padding: 0.5rem;
+    margin: 0.5rem;
+    text-align: center;
+    width: 90%;
+    border: 1px solid lightgray;
+    line-height: 1.5rem;
+}
+#content img{
+    width: 80%;
+    height: auto;
+    max-width: fit-content;
+    border-radius: 0% 10%;
+}
+#content p,li{
+    font-size: medium;
+    text-align: left;
+}
+.containeritem{
+    padding: 0.5rem;
+    margin: 0.5rem;
+    background-color: beige;
+}
+/* Headerlink */
+.headerlinks{
+    text-align: right; 
+    letter-spacing:0.025rem;
+}
+.headerlinks ul{
+    margin: 0.5rem;
+}
+.headerlinks li{
+    display: inline;
+    list-style: none;
+    font-size: small;
+}
+.headerlinks a{
+    text-decoration: none;
+    color: BLACK;
+}
+.headerlinks a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+/* Footerlinks */
+.footerlinks{
+    text-align: center;
+    letter-spacing:0.025rem;
+}
+.footerlinks ul{
+    margin: 0.5rem;
+}
+#footerlinks li{
+    display: inline;
+    list-style: none;
+    font-size: small;
+}
+#footerlinks a{
+    text-decoration: none;
+    color: BLACK;
+}
+#footerlinks a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+
+
+

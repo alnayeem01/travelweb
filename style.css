@@ -1,0 +1,27 @@
+*{
+    padding: 0rem;
+    margin: 0rem;
+}
+.header{
+    background-color: whitesmoke;
+    text-align: center;
+}
+#primarynav{
+    background-color: bisque;
+    text-align: center;
+}
+#primarynav li{
+    display: inline-block;
+    list-style: none;
+}
+#primarynav a {
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem;
+    display: inline-block;
+    border-right: 1px solid black;
+    min-width: 100px;
+}
+#primarynav li:first-child a{
+    border-left: 1px solid black;
+}
